@@ -1,0 +1,30 @@
+Resposta em texto:
+
+Pesquise sobre as propriedades fetch, cascade e optional que podem estar presentes nas anotações de relacionamentos. 
+Insira dentro do seu projeto um arquivo txt em que você escreve o seu entendimento sobre elas.
+
+Optional: ele determina se é obrigatório ou não  preencher aquela coluna, é colocado como propriedade na anotação.
+Sendo: optional = false (não é obrigatório) ou optional = true (é obrigatório/padrão optional);
+
+O Cascade: é uma propriedade do JPA, que implementa uma maneira de realizar alguma ação CRUD na entidade pai
+e essa mesma ação será aplicada na entidade associada (filha);
+ 
+Tipos de Cascade JPA:
+ 
+CascadeType.PERSIST Para operações de salvar e persistir, que propaga o que foi feito na entidade pai para as outras entidades relacionadas(filho);
+
+CascadeType. MERGE Atualiza um entidade que esta no estado persistent, com o campo de uma entidade que esta no estado detached, para a entidade pai e propaga para as entidades filhas;
+
+CascadeType.REMOVE : Quando a entidade pai for removida, esse cascade type também remove todas as outras entidades que estejam relacionadas essa entidade;
+
+CascadeType.REFRESH : Basicamente, quando  a instância da entidade estiver no estado persistente, o refresh faz o processo do update para a entidade pai e propaga para as outras entidades relacionadas;
+
+CascadeType.DETACH : Muda o estado da entidade que era persistent para detached,e propaga essa mudança para todas as entidades relacionadas. 
+
+Fetch: O fetch lazy, é uma busca de dados específicos do banco, e não, todos os dados presentes apenas aquele que são precisos no momento.
+A propriedade é definida por: fetch = FetchType.LAZY
+
+O fetch Eager, é uma busca de todos os dados do banco, podendo causar lentidão no carregamento, por isso não é muito usada, não muita necessidade de chamar todos os campos 
+da entidade de suas relações. A propriedade é definida por: fetch = FetchType.EAGER
+
+
