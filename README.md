@@ -2,11 +2,11 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/BeatrizSouz/mildevs-pecas-api?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/BeatrizSouz/mildevs-pecas-api?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/BeatrizSouz/mildevs-pecas-api?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/BeatrizSouz/mildevs-pecas-api?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/BeatrizSouz/mildevs-pecas-api?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/BeatrizSouz/MilDevs-SistemaDeMultas?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/BeatrizSouz/MilDevs-SistemaDeMultas?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/BeatrizSouz/MilDevs-SistemaDeMultas?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/BeatrizSouz/MilDevs-SistemaDeMultas?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/BeatrizSouz/MilDevs-SistemaDeMultas?style=for-the-badge)
 
 
 
