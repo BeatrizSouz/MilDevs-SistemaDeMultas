@@ -21,7 +21,7 @@
 
 ## 🔧 Entidade
 
-
+![image](https://user-images.githubusercontent.com/112733336/219858030-65fc22aa-06de-4c48-ae56-71312ccf7895.png)
 
 
 
